@@ -6,6 +6,7 @@ export const ADD_HERO = 'ADD_HERO';
 
 export class AddHero implements Action {
   type: string = ADD_HERO
+    static payload: any;
 
   constructor(public heroToBeAdded: Hero) {
   }
